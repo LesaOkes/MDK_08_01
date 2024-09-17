@@ -1,0 +1,5 @@
+{
+    "workbench.iconTheme": "catppuccin-mocha",
+    "editor.cursorStyle": "block-outline",
+    "editor.minimap.enabled": false
+}

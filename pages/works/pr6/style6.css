@@ -1,0 +1,17 @@
+body {
+    background-image: url("../../../img/фонЛес.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: "Arial", "Roboto", sans-serif;
+}
+
+.tMenu {
+    background-color: rgb(109, 107, 107);
+}
+
+a {
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+}

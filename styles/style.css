@@ -1,0 +1,71 @@
+.new1 {
+    background: url("../img/Кошка и котята.jpg");
+    width: 600px;
+    height: 500px;
+    background-size: cover;
+}
+
+.new2 {
+    background: url("../img/z1.jpg");
+    width: 400px;
+    height: 270px;
+}
+
+body {
+    background-image: url("../img/фонЛес.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: "Arial", "Roboto", sans-serif;
+}
+
+@font-face {
+    font-family: "Racama";
+    font-weight: 300;
+    src: url("../font/Racama.ttf")
+}
+
+/* Меню  */
+ul li {
+    display:inline-block;
+}
+ul {
+    background: rgb(60, 59, 59);
+}
+li {
+    padding: 10px;
+    color:rgb(255, 255, 255);
+}
+a {
+    text-decoration: none;
+
+}
+.textMenu {
+    text-align: center;
+}
+
+/* колонки для новостей*/
+.content {
+    display: flex;
+}
+main {
+    width: 70%;
+}
+aside {
+    width: 30%;
+}
+.kolonka {
+    background: rgb(212, 209, 209);
+}
+
+/* колонки для навыков и тд */
+.content1 {
+    display: flex;
+}
+.main {
+    width: 50%;
+}
+.aside {
+    width: 50%;
+}
+
